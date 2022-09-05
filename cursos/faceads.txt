@@ -1,0 +1,192 @@
+curso facebook ads
+
+anuncins que dão mais resultado
+feed do facebook
+feed do instagram
+stories facebook
+stories instagram
+
+remarketing - poss criar um anuncio que foi até o carrinho de comprar e nao fechou a compra
+remarketing são anuncios para pedssoas qeu já te conhecem e fizeram algum evento 
+
+pessoas q já me conhecem
+publico personalizado - site/lista de clientes upload/video/perfil isntagram/acessaram formulario de cadastro/
+
+pessoas q nao me conhecem e se parecem com os de cima em niveis de iteresse
+publico semelhante -facebook criar um plublico semelhante aos interesses das pessoas do seu publico personalozado
+
+pessoas q nao me conhecem
+publico salvo -
+	dados demograficos - formação da pessoa, idade, aniversarios, pessoas q tem filhos
+	interesses - comidas / cinameas / esporte 
+	comportamentos - celcular andriois iphone/ etc
+
+recomandação publico salvo 
+- interesse geral - pelo menos 1 filtro
+- ineteresse especifico - pelo menos 1 filtro
+- interesse unico - pelo menos 3 filtros
+- interesse limitado - pelo menos 3 filtros
+	
+	
+
+	
+
+eventos pixel 
+visualziou uma pagina
+adicionou produto cxarrinho
+ciu o checkout
+fez uma busca no site/lista
+finalizou uma compra
+	
+
+CRIATIVOS dimensoes
+story 1080 x 1920px
+feed retrato 1080 x 1350px (recomendado feed)
+feed quadrado 1080 x 1080px 
+
+campanha sobre engajamento
+- fale sobre o produto
+- como usar
+- pra q serve
+- do q pe feito
+- dicas e curiosidades
+- mitos e verdades
+- fale do mercado
+- faça perguntas e enquetes
+- humor
+- mentalidade - coach
+
+companha converaso
+- seja objetivo
+- fale dos rsultados
+- fale da solução
+- beneficios/vantagnes
+- pessoas utilizando - depoimentos - prova social
+-ofertas iressitiveis
+
+
+bilbioteca de anuncios
+https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=BR&view_all_page_id=281345146056824&sort_data[direction]=desc&sort_data[mode]=relevancy_monthly_grouped&search_type=page&media_type=all
+
+bilioteca de anuncios gringa
+https://www.unicornads.com/
+
+
+
+Estrutura 
+Campanha
+- Objetivo
+- Orçamento (CBO)
+
+Conjuneto de Anuncios
+- oraçamento (ABO)
+- programação
+- mposicionamentos
+
+Anuncios
+- Formatos e Criativos
+
+Criar publicvos
+separar pór tipo / carcteristica e periodo
+exemplo: site / pagina x / 30 dias
+
+
+
+podemos criar orçamento na capmanha ou no conjunto de anuncios
+posso ter dois conjunto de anuncios para mesma campanha - e criar orçamento separado para cada conjunto de anuncios
+
+
+campanah de video tem q ter no maximo 120 segundos
+
+campanha de whatsApp e conversões tem q ser um publico mais quente, ou seja, que já te conehcem e já interagiram com vc
+
+OTIMIZAÇÃO DE ORÇAMENTO
+ABO (Oraçamento no nivel de conjunto de anuncios)
+Campanha - 5 anuncios (budjet de 100 reais e 20 reais cada anuncio. 
+Analisa quala anuncio está indo bem, e pausa os outros e resdistribui a verba
+dicas: 
+	testear os arquivos de ancuncios por igual 
+	verba pequena
+	publicos mais frios
+	
+CBO (Oraçamento no nivel da campanha)
+Camapnha com 5 anuncios, porem quem distribui a verba é o facebook, e vc tem q ir analisando o q o face está fazendo,
+para talvez deixar somente 3 anuncios nessa campanha
+o facebook otimiza o orçamento da sua campanha  em tempo real, e geralmente traz melhortes resultados
+dicas:
+	- mais facil de gerenciar
+	- mais facil de escalar, pois vc define o orçamento e escala automaticametne
+	- favorede os publicos mais qualificados e que jpá conehcem sua marca
+	
+
+Dicas de oraçamento tanto para CBO e ABO
+- evite muitos conjuntos de anuncios se a verba for pequena
+- se o teu custo por resultado estiver muito ruim, vc deve fazer novos publicos e criativos
+- cbo tem limite de gastos (edite o conjunto de anucnions e defina um limite minimo ou maximo para um conjunto de anuncio especifico
+
+
+OTIMIZAÇÃO DE Criativos
+Use e abuse dos criativos
+se possivel faz um criativo especifico para os principais formatos
+	- imagem feed
+	- imagem story
+	- video feed
+	- video story
+	- carrousel feed
+	- carrousel story
+pause os criativos que não estão trazendo bons resultados	
+a cada um ou dois meses faça novos criativos
+utilize gatilhos mentais
+	- autoridade: sabe muito do assunto
+	- urgencia: tempo para comprar
+	- escassez: qtde de itens disponiveis
+	- prova social: depoimentos de pessoas q já utilizaram seu produto
+
+
+OTIMIZAÇÃO DE PUBLICOS
+No conmjunrto de anuncios tem uma coluna (Frequencia) q é qtde média de vezes q o anuncio está aprecendo para uma pessoa
+se tiver muito alto...temos que rever o publico
+No comjeunto de anuncios tem um link de INSPECIONAR (q te dá a saturação do publico)
+normalemnte altere o publico de 3 a 4 meses
+
+
+
+DETALHAMENTO - AGORA É CATEGORIAS
+consigo detalhar por idade, e muitoas outras tipos. se aquela categoria está me dando um resultado ruim, eutiro do meu publico da capmanha
+consigo ver em todos os niveis campanha, conjunto de anuncios e nos anuncios
+
+
+PROGRAMAÇÃO DE ANUCIONS
+recomenda-se que fique nonovewl da campanha pq o face otimiza p vc, senao vc tem q colcoar no conjunto de anuncios
+e colcoar por exmplo de seg a sexta das 8 as 21
+
+
+AUDIENCE INSIGHT
+olhasr p ver seu publico nas redes
+
+
+CENTRAL DE CRIATIVOS NO GERENCIADOR DE ANUNCIOS
+- veja os anuncios como seus clientes veem
+- convite e colabora com colegas de equipe
+- use nomes de anuncios exclusvos para identifica-los
+- edite vários posicionamentos de uma só vez
+
+
+EDIÇÃO DE VIDEOS - APLICATIVO (INSHOT)
+
+
+
+
+
+📈 Descubra qual banco digital possui a Conta ou CDBs que mais tem rendimento atualmente.
+ 
+Com a nossa calculadora de renda fixa gratuita, você consegue comparar onde seu dinheiro e reserva de emergência vai render mais.
+ 
+Imagina o quanto você pode estar deixando de ganhar no futuro se tivesse investido no produto com mais retorno.
+ 
+Acesse nossa calculadora gratuitamente e bons investimentos!!!
+
+Calculadora de Renda Fixa
+
+
+https://www.guardardinheiro.com.br/calculadora-renda-fixa

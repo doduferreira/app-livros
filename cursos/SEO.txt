@@ -1,0 +1,133 @@
+ude.my/UC-64281ffb-40d5-42ce-968e-12d9316a7532
+
+CURSO SEO
+ABRIR CONTA NO ADS E VER AS BUSCAS NO GOOGLE - FERRAMENTAS - PLANEJADOR DE PALAVRAS CHAVE]
+
+
+GOOGLE ANALYTYC - COMPORTAMENTO - TOAS AS PAGINAS
+
+SERACH CONSOLE - EZXTRAI O RELATOIO E VERIFICA CONSULTAS COM PRIMEIRA POSIÇÕES QUE NÃO ESTOU SENDO CLICADAS (CTR BAIXO), TALVEZ TENHA QUE MUDAR ALGO NO CODIGO H1, H2, DESCRIPTION
+
+DOCUMENTAR O CRACIMENTO DA PAGINA
+
+IMAGENS
+VA NAS PROPIEDADES DAS IMAGENS - DETALHES, E COLCOQUE AS INFORMAÇÕES NECESSÁRIAS
+
+CHECAR SE ESTÁ REDIRECIONANDO SEM WWW
+https://www.redirect-checker.org/
+
+
+
+CREIAR CATEGORIAS E SUBCATERORIAS PARA ENTENDIMENTO DO GOOGLE
+
+
+COLCOAR BREADCRUMBS NO TOPO DA PAGINA - VAVEGAÇÃO
+TENTAR USAR A LIB
+use-react-router-breadcrumbs
+
+
+BUSCA MONITORADA INERNA - REATREAR COM GOOGLE ANALYTICS
+NA ABA ADMINSITRADOR -> CONFGURACAO DE VISTA DE PROPRIEDADE - >LIGAR ACOMPANHAMENTO DE PESQUISA DO SITE
+PARA ANALISAR, VAI EM PESQUISA INTERNA - VISAO GERAL
+
+
+DIMINUIR O TAMNHO DAS IMAGENS NA FERRAMENTA ABAIXO
+https://tinypng.com/
+
+
+
+LINKS QUEBRADOS
+BAIXA A FERRAMENTA AQ E COLOCA SEU SITE
+http://home.snafu.de/tilman/xenulink.html
+
+
+NAVEGAÇÃO DEVE SER INFERIOR A 5 CLIQUES DA HOME
+
+
+
+ANALISAR CONCORRENTES
+GOOGLE 	- INTEXT:PALAVRA CHAVE
+		- INTEXT:PALAVRA CHAVE inurl:forum
+IR NO GOOGLE NOTICIAS E CONSULTAR AS PALAVRAS CHAVES E VER SEUS CONCORRENTES O QUE APARECE
+VEJA A ESTRUTURA DO SITE DELES
+YOUTUBER - VER O Q APARECE NAS PALAVRAS CHAVE, ENTRAR EM CONTATO COM CANAL, TROCAR LINKS 
+TWITTER BUSCA AVANÇADA https://twitter.com/search-advanced?lang=pt		
+
+
+VOLUME DE PALAVARTAS CHAVE
+SE MINHA PAGINAS TEM 400 PALAVRAS , DE 1% A 2% NO MAXIMO TEM QUE SER AS PALAVRAS CHAVE
+
+
+PALAVARAS CHAVE
+COLOCAR A PALAVRA CHAVE NA URL, DESCRIPTION, TITLE, NAS IMAGENS, NOS ALTS, H1, CRIAR UM LINK NA HOME COM AS PALAVRAS CHAVE DO SITE INTEIRO
+
+OFF PAGES - LINK UIDINING
+https://www.youtube.com/watch?v=N_0LhN106nA&list=PLGlqOmfmptqtuTSS8ERREFpGSDz3FkUlM
+CRIAR LISTA DE INFLUENCIADOSRES PARA COLOCAR LINKS DO SEU SITE
+Encontrar um fórum para interagir com meu público-alvo.
+Pesquise no Google por: inurl:forum intext:presente de batizado
+
+Encontrar influenciadores e micro-influenciadores
+
+Pesquise no Google por:
+
+inurl:twitter intext:batizado
+
+inurl:youtube intext:batizado
+
+intitle:presente intext:batizado
+Ação prática: Entre em contato com os influenciadores para criar ações conjuntas de conteúdo e conquistar um link para seu projeto.
+
+Encontre um site para escrever como convidado
+
+Pesquise no Google por:
+
+intitle:dicas intext:batizado
+
+
+rie um conteúdo com listas dos melhores
+
+A ideia:
+
+Criar uma lista com os 10 melhores fotógrafos para batizado! Entre em contato com esses profissionais, faça uma entrevista e peça umas fotos da sua galeria.
+
+Com esse material, crie um artigo e publique em seu site.
+Ação prática: Peça para esses fotógrafos incluírem um link, em seus sites e redes sociais, para seu site.
+
+Motivador: Manter o relacionamento ativo com influenciadores.
+
+Pesquise no Google por:
+
+fotógrafo de batizado
+
+
+
+7- Encontre sites que mencionam sua marca, porém não fazem link
+
+Pesquise no Google por: intext:mzclick -site:mzclick.com.br
+
+Será exibido todos os sites que tenham o texto MZclick, menos o meu domínio.
+
+
+
+FERAAMENTAS
+- DOMIUIR TAMANHO IMAGEM
+CONTROLE
+TINYPNG
+GIMP
+RIOT
+
+-  BEAM US UP 
+INSTLAR - MUITO LEGAL
+VER PAGINAS , METAS LONGAS, VARIAS COISAS ERRADAS DO SITE
+
+
+- CPYSPIDER
+VER CONTEUDOS DULPCADOS
+
+
+- CHECK MY LINKS
+VER LINKS QUEBRADOS
+ACESSA SITE DE CONCORRENTES PARA VER SE TEM LIONK QUEBRADO, E AVISA E TROCA LINK
+
+
