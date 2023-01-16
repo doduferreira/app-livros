@@ -17,58 +17,6 @@ const Head = (props) => {
     }
   }, []);
 
-  function getNobeta() {
-    var min = Math.ceil(1);
-    var max = Math.floor(6);
-    var numero = Math.floor(Math.random() * (max - min)) + min;
-    // console.log(numero);
-    // só mostra nobeta se o numero aleatorio entre 1-3 ser 2, senao fica mostrando toda hora
-    if (numero === 2) {
-      return (
-        <script src="https://api.nobeta.com.br/nobetaads&id=guardardinheiro.inter"></script>
-      );
-    }
-  }
-
-  function getAposta() {
-    var d = new Date();
-    var hora = d.getHours();
-
-    if (!window.location.href.includes('calculadora-renda-fixa')) {
-      if (hora % 3 === 0) {
-        return (
-          <script
-            data-cfasync="false"
-            type="text/javascript"
-            id="clever-core"
-            src={process.env.PUBLIC_URL + '/ScriptAposta.js'}
-          ></script>
-        );
-      }
-    }
-  }
-
-  function getMapaCalor() {
-    var hora = new Date().getHours();
-
-    if (hora === 11) {
-      return (
-        <script type="text/javascript">
-          {` 
-        (function () {
-          window.__insp = window.__insp || [];
-          __insp.push(['wid', 531038134]);
-          var ldinsp = function () {
-            if (typeof window.__inspld != "undefined") return; window.__inspld = 1; var insp = document.createElement('script'); insp.type = 'text/javascript'; insp.async = true; insp.id = "inspsync"; insp.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://cdn.inspectlet.com/inspectlet.js?wid=531038134&r=' + Math.floor(new Date().getTime() / 3600000); var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(insp, x);
-          };
-          setTimeout(ldinsp, 0);
-        })();
-        `}
-        </script>
-      );
-    }
-  }
-
   function getSchemaWebPage() {
     if (props.nivel === '1') {
       return (
@@ -213,33 +161,6 @@ const Head = (props) => {
       {getSchemaWebPage()}
 
       {getSchemaBreadcumbList()}
-
-      <script
-        async
-        src="https://www.googletagmanager.com/gtag/js?id=G-2K23FV25Q6"
-      ></script>
-      <script>
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag() { dataLayer.push(arguments); }
-          gtag('js', new Date());
-          gtag('config', 'G-2K23FV25Q6');
-      `}
-      </script>
-
-      {mostraAnuncio && getNobeta()}
-
-      {mostraAnuncio && getAposta()}
-
-      {/* {props.tagOneSignal && (
-        <script>
-          {`                                                    
-            OneSignal.sendTag("${props.oneSignalTag}","1");              
-        `}
-        </script>
-      )} */}
-
-      {getMapaCalor()}
     </Helmet>
   );
 };

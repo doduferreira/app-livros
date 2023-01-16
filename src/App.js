@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { UserStorage } from './Contexts/UserContext';
 import isMobile from './Components/Helper/Mobile';
 import Footer from './Footer/Footer';
+import { Container } from 'react-bootstrap';
 
 const Header = React.lazy(() => import('./Header/Header.js'));
 const HeaderFinal = React.lazy(() => import('./Header/HeaderFinal.js'));
@@ -25,7 +26,7 @@ const LGPD = React.lazy(() => import('./Components/Helper/LGPD'));
 const Topo = React.lazy(() => import('./Components/Helper/Topo'));
 
 //home
-const Home = React.lazy(() => import('./Pages/Home/Home2'));
+const Home = React.lazy(() => import('./Pages/Home/Home'));
 
 class App extends Component {
   state = {
@@ -42,21 +43,6 @@ class App extends Component {
       <>
         <BrowserRouter>
           <UserStorage>
-            <React.Suspense fallback={<div>Carregando...</div>}>
-              {!this.state.mobile ? <Header /> : <HeaderFinal />}
-            </React.Suspense>
-            <React.Suspense fallback={<div></div>}>
-              <LGPD />
-            </React.Suspense>
-
-            {this.state.mobile ? (
-              <div>
-                <br />
-                {/* <br /> */}
-                <br />
-              </div>
-            ) : null}
-
             <Routes>
               <Route
                 path="/registro"
@@ -93,7 +79,7 @@ class App extends Component {
               />
             </Routes>
 
-            <Footer />
+            {/* <Footer /> */}
           </UserStorage>
         </BrowserRouter>
 

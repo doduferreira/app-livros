@@ -1,7 +1,11 @@
 import React from 'react';
-
-const Button = ({ children, ...props }) => {
-  return <button {...props}>{children}</button>;
+import styles from './Botao.module.css';
+const Botao = ({ children, ...props }) => {
+  return (
+    <button className={styles.button} {...props}>
+      {children}
+    </button>
+  );
 };
 
-export default Button;
+export default Botao;
