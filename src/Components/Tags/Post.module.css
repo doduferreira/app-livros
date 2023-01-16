@@ -1,0 +1,28 @@
+.container{
+display: flex;
+
+}
+
+.itemPost{
+  /* border: 1px solid #3F3F44; */
+display: block;
+width: 70%;
+}
+
+.itemCategorias{
+  /* border: 1px solid #3F3F44; */
+display: block;
+width: 30%;
+}
+
+@media (max-width: 800px) {
+  .container{
+    display: block;    
+    }
+  .itemPost{     
+  width: 100%;
+  }
+  .itemCategorias{
+    width: 100%;
+  }
+}

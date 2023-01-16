@@ -1,0 +1,47 @@
+.div{
+  background-color: #259073;
+  padding: 10px;
+  width: 100%;
+  height: 7rem;
+}
+
+.breadcumb {
+  font-size: 14px;  
+  text-transform: uppercase;
+}
+
+.breadcumb  ol {
+    border: none;
+  background-color: white ;  
+  margin: 5px 5px 15px 5px;
+}
+
+
+.spanBreadcumb {
+  color:#3F3F44;
+  font-weight: bold;
+  }
+
+  .h1 {
+    margin-left:5px ;
+    text-transform: uppercase;
+    display: flex;    
+    justify-content: center;
+    font-weight: bold;
+    font-size: 23px;
+    color:white
+  }
+
+
+  @media (max-width: 800px) {
+    .div{
+      height: auto;
+    }
+    
+    .breadcumb {
+      font-size: 11px;       
+    }
+    .h1 {
+      font-size: 15px;
+    }
+  }

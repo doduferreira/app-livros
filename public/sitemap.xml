@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <sitemap>
+    <loc>http://www.guardardinheiro.com.br/sitemap-site.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>http://www.guardardinheiro.com.br/sitemap-blog.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>http://www.guardardinheiro.com.br/sitemap-ondeinvestir.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>http://www.guardardinheiro.com.br/sitemap-rendafixa.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>http://www.guardardinheiro.com.br/sitemap-fundos.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>http://www.guardardinheiro.com.br/sitemap-fii.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>http://www.guardardinheiro.com.br/sitemap-acoes.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>http://www.guardardinheiro.com.br/sitemap-etf.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>http://www.guardardinheiro.com.br/sitemap-cripto.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>http://www.guardardinheiro.com.br/sitemap-bdr.xml</loc>
+  </sitemap>
+   <sitemap>
+    <loc>http://www.guardardinheiro.com.br/sitemap-emprestimo.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>http://www.guardardinheiro.com.br/sitemap-cartoes.xml</loc>
+  </sitemap>
+ <sitemap>
+    <loc>http://www.guardardinheiro.com.br/sitemap-googlenoticias.xml</loc>
+  </sitemap>
+</sitemapindex>

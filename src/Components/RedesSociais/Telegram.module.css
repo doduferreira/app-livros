@@ -1,0 +1,132 @@
+.divMaster{
+  display: flex;
+  width: 100%;
+  justify-content: center;  
+  text-align: center;
+  
+}
+.divTelegram{
+  margin: 0 auto;
+  padding: 5px;
+  margin-left: 500px;
+  /* margin-right: 210px; */
+  display: block;
+  text-align: center;
+  align-items: center;
+  place-items: center;
+  /* background-color: #F7F7F7; */
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  cursor: pointer;
+  border: 2px solid #1A7058;
+  margin: 10px;
+  width: 60%;
+  border-radius: 10px;
+}
+
+.container{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+  
+}
+
+.item{
+  max-width: 50%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btn{
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 0.4rem;    
+  background: #1A7058;
+  color: #F7F7F7;
+  min-width: 300px;
+  height: auto;
+  transition: 0.1s;
+  outline: none;
+  border: none;
+  margin: 10px;
+}
+
+
+
+.p{
+  color:#3F3F44;
+  font-weight: 900;
+  font-size: 13px;
+  /* line-height: 30px; */
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+
+.btn:focus{
+  outline: none;
+}
+
+
+
+.faFavorito{
+  font-size: 30px;
+  color: #F7F7F7;
+  stroke: #0088cc;
+  stroke-width: 15px;    
+  padding: 1px;
+}
+
+.span{
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.img{
+  width: 100%;
+  border: 1px solid #1A7058;
+  border-left: 8px solid #1A7058;
+  /* height: 100px; */
+  /* border: 2px solid #1A7058; */
+  border-radius: 20px;
+  /* width: 235px; */
+  /* height: 250px; */
+  padding: 20px;
+}
+
+@media (max-width: 800px) {
+  .divMaster{
+    width:95%;
+  }
+
+  .divTelegram{
+    width:90%;
+    
+  }
+  .container{
+    display: block;
+  }
+
+  .item{
+   
+    max-width: 100%;
+   margin: 10px;
+  }
+
+  .p{
+    
+    font-size: 12px;
+    line-height: 15px;    
+  }
+
+  
+.img{
+  
+  margin-left: 10px;
+  /* border: 1px solid #1A7058; */
+}
+
+
+}

@@ -1,0 +1,113 @@
+/* @import url('https://fonts.googleapis.com/css?family=Open+Sans'); */
+* {
+  font-family: 'Roboto', sans-serif;
+  line-height: 24px;
+  font-weight: 400;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+/* 
+header{
+  background-color: #F7F7F7;
+
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  right: 0;
+} */
+
+/* .logo {
+  width: 150px;
+  height: auto;
+  position: absolute;
+  top: 5px;
+  left: 15px;
+} */
+
+.navlink {
+  margin-top: 5px;
+  color: #3F3F44 !important;
+  justify-content: center;
+  font-weight: 900;
+  font-size: 12px;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.navlinkDropDown {
+  white-space: pre-line;
+}
+
+.navtoogle {
+  color: #259073 !important;
+  background-color: #3F3F44 !important;
+}
+
+.navlink:hover,
+.navlink:focus {
+  color: #259073 !important;
+  border-top: 2px solid #259073;
+}
+
+.divCarteira {
+  margin-top: 80px;
+  width: 100%;
+  text-align: right;
+}
+
+.hr {
+  margin-top: -15px;
+}
+
+.faixa ul li {
+  font-size: 30px;
+  display: inline-block;
+  padding-right: 30px;
+}
+
+@media (max-width: 952px) {
+  .navlink {
+    text-align: left;
+    font-size: 12px;
+  }
+  /* .divCarteira {
+    margin-top: 110px;
+  } */
+}
+@media (max-width: 858px) {
+  .navlink {
+    text-align: left;
+    font-size: 12px;
+    /* padding: 3px; */
+  }
+  /* .divCarteira {
+    margin-top: 110px;
+  } */
+}
+
+@media (max-width: 600px) {
+  .navlink {
+    text-align: left;
+    font-size: 12px;
+    /* padding: 3px; */
+  }
+
+  /* .logo {
+    width: 130px;
+  } */
+
+  .divCarteira {
+    text-align: center;
+    margin-top: 80px;
+  }
+
+  .navlinkDropDown {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,209 @@
+.containerTableAds {
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  /* border: 1px solid #ccc; */
+}
+
+.containerTableAdsItem {
+  margin: 5px;
+  /* background: tomato; */
+  text-align: center;
+  /* font-size: 1.5em; */
+  flex-grow: 1;
+}
+
+.table {
+  font-size: 12.5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.tableMobile {
+  /* border-collapse: collapse; */
+  /* margin: 5px 0; */
+  font-size: 0.7em;
+  /* font-weight: bold; */
+  text-align: left;
+}
+
+.tableDetalhes {
+  /* border-collapse: collapse; */
+  /* margin: 5px 0; */
+  font-size: 0.7em;
+  /* font-weight: bold; */
+  text-align: center;
+}
+
+.th {
+  text-align: left;
+  cursor: pointer;
+  font-size: 12.5px;
+  font-weight: bold;
+}
+
+.thMobile {
+  text-align: left;
+  cursor: pointer;
+  font-size: 9.5px;
+  font-weight: bold;
+}
+
+.thMobile12Meses {
+  text-align: left;
+  /* cursor: pointer; */
+  font-size: 6.2px;
+  font-weight: bold;
+  /* padding: 0 20px 0 0; */
+}
+
+.td_icon {
+  text-align: left;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.thead {
+  /* background-color: #173248; */
+  background-color: white;
+  /* border-color: goldenrod; */
+  text-transform: none;
+  text-align: left;
+}
+
+.td {
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.tdPequena {
+  text-align: left;
+  margin-top: 1px;
+  font-size: 0.57rem;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+.tdDetalhes {
+  text-align: left;
+  padding: 5px 2px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.tdNormal {
+  text-align: left;
+  padding: 5px 2px;
+  font-weight: normal;
+  text-transform: none;
+}
+
+.td_escondida {
+  display: none;
+}
+
+.tdDetalhes {
+  text-align: left;
+  /* padding: 5px 2px; */
+  font-weight: bold;
+  color: #173248;
+  /* text-transform: uppercase; */
+}
+
+.tdPositivo {
+  text-align: left;
+  padding: 5px 2px;
+  color: green;
+  font-weight: bold;
+}
+.tdNegativo {
+  text-align: left;
+  padding: 5px 2px;
+  color: red;
+  font-weight: bold;
+}
+
+.tdPositivo12Meses {
+  text-align: left;
+  padding: 5px 2px;
+  color: green;
+  font-weight: bold;
+}
+.tdNegativo12Meses {
+  text-align: left;
+  padding: 5px 2px;
+  color: red;
+  font-weight: bold;
+}
+
+.ulProdutos {
+  list-style-type: none;
+  margin-top: -10px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.liNomeProduto {
+  text-align: left;
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-weight: bold;
+  margin-bottom: 0px;
+  padding-top: 10px;
+}
+
+.liNomeProduto:hover {
+  margin-left: 10px;
+}
+
+.liDetalhes {
+  text-align: left;
+  margin-bottom: -10px;
+}
+
+.liPositivo {
+  text-align: left;
+  color: green;
+  list-style-type: none;
+  font-weight: bold;
+}
+.liNegativo {
+  text-align: left;
+  color: red;
+  list-style-type: none;
+  font-weight: bold;
+}
+
+.divTabela {
+  padding-left: 5px;
+  border-top: 4px solid #00bfff;
+  border-radius: 8px;
+  box-sizing: border-box;
+  box-shadow: 0 3px 20px rgb(0 0 0 / 0.2);
+  text-align: center;
+}
+
+.spanProduto {
+  font-size: 1rem;
+  font-weight: bolder;
+}
+
+.spanCorretoras {
+  font-size: 0.8rem;
+  font-weight: bolder;
+  color: gray;
+}
+
+@media (max-width: 600px) {
+  .tdNegativo12Meses {
+    font-size: 0.65em;
+  }
+
+  .tdPositivo12Meses {
+    font-size: 0.65em;
+  }
+
+  .tdDetalhes {
+    font-size: 0.5;
+  }
+}

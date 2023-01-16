@@ -1,0 +1,77 @@
+.table {
+  font-weight: bold;
+  text-align: left;
+  text-transform: uppercase;
+    font-weight: 900;
+}
+
+.th {
+  font-weight: 900;
+  text-align: left;
+  font-size: 12.5px;
+  /* font-weight: bold; */
+}
+
+.tdNome {
+  font-size: 12.5px;
+  font-weight: 900;
+}
+
+.td {
+  font-size: 0.9rem;
+  text-align: left;
+    font-weight: 900;
+}
+
+.tdPositivo {
+  font-size: 0.9rem;
+  text-align: left;
+  color: green;
+  font-weight: 900;
+}
+
+.tdNegativo {
+  font-size: 0.9rem;
+  text-align: left;
+  color: red;
+  font-weight: 900;
+}
+
+
+
+
+
+.fa {
+  color: #259073;
+  font-size: 1.5rem;
+}
+
+
+
+@media (max-width: 600px) {
+  .tdPositivo {
+    font-size: 0.8rem;
+  }
+
+  .tdNegativo {
+    font-size: 0.8rem;
+  }
+  .td {
+    font-size: 0.8rem;
+  }
+
+
+  .tdPositivo12Meses {
+    font-size: 0.6rem;
+  }
+
+ 
+  .th {
+    font-size: 9.5px;
+  }
+
+  .tdNome {
+    font-size: 10px;
+  }
+
+}

@@ -1,0 +1,74 @@
+.divMaster{
+  display: flex;
+  width: 100%;
+  justify-content: center;  
+  background-color: #F7F7F7;
+}
+
+.divFooter{
+  margin: 0 auto;
+  padding: 5px;
+  margin-left: 500px;
+  /* margin-right: 210px; */
+  display: block;
+  text-align: center;
+  align-items: center;
+  place-items: center;
+  
+  /* box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); */
+  cursor: pointer;
+  /* border: 2px solid #1A7058; */
+  margin: 10px;
+  width: 80%;
+  border-radius: 10px;
+}
+
+.container{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+  /* border: 2px solid #1A7058; */
+}
+
+.item{
+  /* max-width: 50%; */
+  text-align: center;
+  cursor: pointer;
+}
+
+.fa {    
+  font-size: 30px;
+color: #1A7058;
+/* border: 1px solid red; */
+stroke: #1A7058;
+stroke-width: 10px;    
+padding: 1px;
+/* animation: animate 5s infinite linear; */
+}
+
+.faTitulo{
+  color: transparent;
+  font-size: 12px;
+}
+
+.paragrafoRodape {
+  /* text-transform: none !important; */
+  /* color: #F7F7F7; */
+  /* font-weight: bold; */
+  font-size: 0.8rem;
+  margin-left: 15px;
+  margin-top: -10px;
+}
+
+.links{
+  color:#1A7058;
+  font-weight: bold;
+  /* font-size: 12px; */
+}
+
+@media (max-width: 600px) {
+.divFooter{
+  width: 100%;
+}
+}

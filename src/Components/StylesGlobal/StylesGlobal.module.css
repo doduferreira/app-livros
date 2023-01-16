@@ -1,0 +1,299 @@
+.h1 {
+  margin-left:5px ;
+  text-transform: uppercase;
+  display: flex;
+  border-bottom: 3px solid #259073;
+    color: #3F3F44;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 36px;
+
+}
+
+.h2 {
+  margin-left: 20px;
+  font-size: 16px;
+  padding: 1px;
+  color: #3F3F44;
+}
+
+.h2Fundo {
+  margin-left: 10px;
+  font-size: 16px;
+  padding: 1px;
+  color: #3F3F44
+}
+
+.h3 {
+  font-size: 14.5px;
+  margin-left: 20px;
+  color: #3F3F44;
+}
+
+.h4 {
+  margin-left: 50px;
+  justify-content: left;
+  font-size: 0.9em;
+  padding: 1px;
+}
+
+.table {
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: -30px;
+}
+
+.tableMobile {
+  font-size: 0.7em;
+  text-align: center;
+}
+
+.ahref {
+  margin-left: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.ahrefMobile {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.divtesteContainerAdsense {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.divtesteAdsense {
+  height: 90px;
+  width: 650px;
+}
+
+.divtesteContainerAdsenseMobile {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.divtesteAdsenseMobile {
+
+  height: 60px;
+  width: 178px;
+}
+
+.divHeaderContainerAdsense {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+.divHeaderAdsense {
+  height: 120px;
+  width: 70%;
+  align-items: center;
+}
+
+.divContainerAdsense {
+  display: none;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.paragrafo {
+  justify-content: center;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 1px;
+}
+
+.dropdownList {
+  font-weight: bold;
+border-radius: 0.4rem;
+color: white;
+background-color: #1A7058;
+font-size: 12px;
+padding: 5px;
+box-sizing: border-box;
+/* transition: 0.1s; */
+cursor: pointer;
+width: 350px;  
+/* padding: 0.2rem 1rem; */
+/* box-sizing: border-box; */
+/* transition: 0.1s; */
+text-align: center;
+margin: 5px;
+outline: none !important;
+text-transform: uppercase;
+}
+
+
+.label {
+  display: block;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1;
+  padding-bottom: 0.5rem;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.spanDropDownlist{
+  cursor: pointer;
+  margin-left: 2px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.checksList {
+  font-weight: bold;
+  border-radius: 0.4rem;
+  border-width: 10px #0678bf;
+  background: white;
+  font-size: 12px;
+  padding: 0.2rem 0.1rem;
+  cursor: pointer;
+  box-sizing: border-box;
+  transition: 0.1s;
+}
+
+.textoErros {
+  color: red;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+/* // CSS for popper */
+.socialMediaPopper {
+  position: fixed;
+  top: 280px;
+  left: unset;
+  right: 5px;
+  display: grid;
+}
+.socialMediaButton {
+  margin-left: 12px;
+  height: 40px;
+  width: 40px;
+}
+
+.containerSocialMedia {
+  max-width: 350px;
+  margin: 0 auto;
+  display: flex;
+
+}
+
+.itemSocialMedia {
+  margin: 1px;
+  /* background: tomato; */
+  text-align: center;
+  font-size: 1.5em;
+  flex-grow: 1;
+}
+
+.paragrafoShare {
+  justify-content: center;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: -5px;
+  color: #1A7058;
+  text-transform: uppercase;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  box-shadow: 0 3px 20px rgb(0 0 0 / 0.2);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.breadcumb {
+  font-size: 14px;  
+}
+
+.breadcumb  ol {
+  /* border: 1px solid #3F3F44;
+  border: 1px solid #259073; */
+  border: none;
+  background-color: white ;
+}
+
+.spanBreadcumb {
+  color:#3F3F44;
+  font-weight: bold;
+  }
+
+
+  .divAdsContainer{
+    /* border: 1px solid #3F3F44; */
+    width: 100%;
+    /* height: 150px; */
+    align-items: center;
+    text-align: center;
+    /* padding: 10px; */
+    justify-content: center;
+    justify-items: center;
+  }
+
+  .divAdsItem{
+    width: 200px;
+    height: 140px;
+    border: 1px solid #3F3F44;
+  }
+
+  .paragrafoLink{
+    margin-left: 20px;
+    text-align: justify;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+
+@media (max-width: 600px) {
+  .h1 {
+    font-size: 15px;
+  }
+
+  .h2 {
+    font-size: 13px;
+    font-weight: normal;
+  }
+
+  .h3 {
+    font-size: 12px;
+    font-weight: normal;
+  }
+
+  .h4 {
+    margin-left: 10px;
+    font-size: 0.75rem;
+  }
+
+  .ahref {
+    font-size: 14px;
+  }
+
+  .center {
+    width: 80%;
+  }
+
+  .paragrafo {
+    font-size: 12px;
+  }
+
+  .breadcumb {
+    font-size: 12px;
+  }
+
+  .dropdownList{
+    width: 100%;
+  }
+
+  .spanDropDownlist{
+    font-size: 12px;
+  }
+}

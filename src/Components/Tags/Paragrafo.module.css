@@ -1,0 +1,15 @@
+.paragrafo {  
+  margin:15px ;      
+  font-size: 1rem;  
+  font-weight: 500;
+  
+  line-height: 1.5;  
+  }
+
+  @media (max-width: 800px) {
+    .paragrafo {  
+      color:#707070;    
+      
+      
+      }
+  }

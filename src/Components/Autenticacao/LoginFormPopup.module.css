@@ -1,0 +1,117 @@
+.container {
+  position: fixed;
+  width: 25%;
+  /* left:5px; */
+  right:5px;
+  bottom: 140px;
+  padding: 7px;
+  background-color: #F7F7F7;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  place-items: center;
+  border: 1px solid #259073;
+  border-radius: 10px;
+  z-index: 99999;
+  box-shadow: 0 3px 20px rgb(0 0 0 / 0.2);
+  }
+
+  .containerTitulo{
+    display: flex;
+    justify-content: space-between;      
+    width: 100%;
+  }
+
+  
+
+  .titulo{
+    font-size: 18px;
+    font-weight: bolder;
+    color:#3F3F44;
+    text-transform: uppercase;
+  }
+
+  .paragrafo{
+    font-size: 14px;
+    font-weight: bolder;
+    color:#3F3F44;
+    margin-bottom: -8px;
+    line-height: 21px;
+  }
+
+  .divRedesSociais{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+  }
+
+
+.divFa{
+  /* border: 1px solid #259073; */
+  display: block;
+text-align: center;
+}
+
+
+
+
+  .fa {    
+    font-size: 25px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: #3F3F44;
+  }
+
+  .faTitulo{
+    color: #3F3F44;
+    text-decoration: none;
+    font-size: 12px;
+  }
+
+.fa:hover {
+  opacity: 0.7;
+  color: #259073;
+}
+
+
+.button{
+  /* min-width: 200px; */
+  /* font-weight: bold; */
+  font-size: 14px;
+  /* cursor: pointer; */
+  border-radius: 0.4rem;    
+  background: #1A7058;
+  color: #F7F7F7;
+  /* height: auto; */
+  /* transition: 0.1s; */
+}
+
+
+.faInstagram {
+  background: #125688;
+  color: white;
+}
+
+.faTelegram {
+  background: #125688;
+  color: white;
+}
+
+
+
+@media (max-width: 600px) {
+  .container {
+    position: fixed;
+    width: 90%;        
+    }
+
+    .titulo{
+      font-size: 15px;
+    }
+    .fa{
+      font-size: 25px;
+    }
+}

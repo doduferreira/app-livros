@@ -1,0 +1,28 @@
+.button {
+  font-size: 0.8rem;    
+  cursor: pointer;
+  border-radius: 0.4rem;
+  background: white;
+  color: white;
+  /* border-width: 10px #0678bf; */
+  border: none;
+  background: #0678bf;
+  width: 5.2rem;
+  height: 1.5rem;
+
+  transition: 0.1s;
+}
+
+/* .button:hover,
+.button:focus {
+  background: #0678bf;
+  color: white;
+  border-width: 10px #0678bf;
+} */
+
+.button:hover,
+.button:focus {
+  background: white;
+  color: #0678bf;
+  border-width: 10px #0678bf;
+}

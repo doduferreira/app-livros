@@ -1,0 +1,13 @@
+.h3 {
+  margin-left: 5px;
+  font-size: 17px;
+  padding: 1px;
+  font-weight: bold;
+}
+
+@media (max-width: 600px) { 
+  .h3 {
+    font-size: 14px;    
+  }
+}
+ 
