@@ -2,10 +2,15 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { UserContext } from '../../Contexts/UserContext';
 import useForm from '../../Hooks/useForm';
-import stylesLogin from './LoginForm.module.css';
-// import fgLogo from '../../Assets/logo-site-guardar-dinheiro.png';
-import fgLogo from '../../Assets/logo1.png';
+import styles from './LoginForm.module.css';
+import {
+  faChevronCircleRight,
+  faChevronRight,
+} from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Error from '../../Components/Helper/Error';
+import Botao from '../Forms/Botao';
+import Logo from '../Logo/Logo';
 
 const LoginForm = () => {
   const email = useForm();
@@ -28,48 +33,56 @@ const LoginForm = () => {
 
   return (
     <div className="App">
-      <div className={stylesLogin.containerCenter}>
-        <div className={stylesLogin.login}>
-          <div className={stylesLogin.loginArea}>
-            <img
-              src={fgLogo}
-              alt="Sistema Logo"
-              style={{ width: '230px', height: '120px' }}
-            />
-          </div>
-          <form className={stylesLogin.form} onSubmit={handleSubmit}>
+      <div className={[styles.split, styles.left].join(' ')}>
+        <div className={styles.centered}>
+          <Logo />
+          <p>Tudo que você precisa para memorizar os livros que você já leu</p>
+        </div>
+      </div>
+
+      <div className={[styles.split, styles.right].join(' ')}>
+        <div className={styles.centered}>
+          <Logo />
+          <br />
+          <br />
+          <form className={styles.form} onSubmit={handleSubmit}>
             {/* <h1>Entrar</h1> */}
 
-            <input
-              className={stylesLogin.loginInput}
-              type="text"
-              placeholder="email@email.com"
-              name="email"
-              {...email}
-            />
+            <div className={styles.inputGroup}>
+              <input
+                type="text"
+                placeholder="email@email.com"
+                name="email"
+                {...email}
+              />
+              <label>E-mail</label>
+            </div>
+            <div className={styles.inputGroup}>
+              <input
+                type="password"
+                placeholder="*******"
+                name="senha"
+                {...senha}
+              />
+              <label>Senha</label>
+            </div>
             <br />
-            <input
-              className={stylesLogin.loginInput}
-              type="password"
-              placeholder="*******"
-              name="senha"
-              {...senha}
-            />
-            <br />
-            <button className={stylesLogin.formButton}>Fazer Login</button>
+            <Botao>
+              {'Login '}
+              <FontAwesomeIcon icon={faChevronRight} />
+            </Botao>
             <Error error={erroNegocio} />
             <Error error={error} />
           </form>
           <br />
-          <Link to="/autenticacao/criar" className={stylesLogin.loginA}>
+          <Link to="/autenticacao/criar" className={styles.loginA}>
             Crie uma conta
           </Link>
-
-          <Link to="/autenticacao/perdeu" className={stylesLogin.loginA}>
+          <br />
+          <Link to="/autenticacao/perdeu" className={styles.loginA}>
             Esqueceu a Senha? Clique aqui
           </Link>
         </div>
-        <hr /> <br />
       </div>
     </div>
   );

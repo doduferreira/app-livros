@@ -3,30 +3,19 @@ import 'bootstrap/dist/css/bootstrap.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { UserStorage } from './Contexts/UserContext';
 import isMobile from './Components/Helper/Mobile';
-import Footer from './Footer/Footer';
 import { Container } from 'react-bootstrap';
+import Menu from './Header/Menu';
+import HeaderFinal from './Header/HeaderFinal';
+import LoginForm from './Components/Autenticacao/LoginForm';
+// import Menu1 from './Header/Menu1';
+// import Menu2 from './Header/Menu2';
 
-const Header = React.lazy(() => import('./Header/Header.js'));
-const HeaderFinal = React.lazy(() => import('./Header/HeaderFinal.js'));
-// politica
-const Sobre = React.lazy(() => import('./Pages/SobreNos/Sobre'));
-const PoliticaPrivacidade = React.lazy(() =>
-  import('./Pages/SobreNos/PoliticaPrivacidade'),
-);
-
-// login
+const Home = React.lazy(() => import('./Pages/Home/Home'));
 const Registro = React.lazy(() => import('./Components/Autenticacao/Registro'));
 const Login = React.lazy(() => import('./Components/Autenticacao/Login'));
 const Autenticacao = React.lazy(() =>
   import('./Components/Autenticacao/Autenticacao'),
 );
-
-//auxilaires
-const LGPD = React.lazy(() => import('./Components/Helper/LGPD'));
-const Topo = React.lazy(() => import('./Components/Helper/Topo'));
-
-//home
-const Home = React.lazy(() => import('./Pages/Home/Home'));
 
 class App extends Component {
   state = {
@@ -43,20 +32,25 @@ class App extends Component {
       <>
         <BrowserRouter>
           <UserStorage>
+            {/* <Menu /> */}
+
+            {/* <Menu1 /> */}
+            {/* <Menu2 /> */}
             <Routes>
               <Route
-                path="/registro"
+                path="/"
                 element={
                   <React.Suspense fallback={<div></div>}>
-                    <Registro />
+                    <Home />
                   </React.Suspense>
                 }
               />
+
               <Route
                 path="/login"
                 element={
                   <React.Suspense fallback={<div></div>}>
-                    <Login />
+                    <LoginForm />
                   </React.Suspense>
                 }
               />
@@ -68,24 +62,11 @@ class App extends Component {
                   </React.Suspense>
                 }
               />
-
-              <Route
-                path="/"
-                element={
-                  <React.Suspense fallback={<div></div>}>
-                    <Home />
-                  </React.Suspense>
-                }
-              />
             </Routes>
 
             {/* <Footer /> */}
           </UserStorage>
         </BrowserRouter>
-
-        <React.Suspense fallback={<div></div>}>
-          <Topo />
-        </React.Suspense>
       </>
     );
   }
