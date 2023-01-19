@@ -1,0 +1,18 @@
+.container{
+  border: 1px solid #259073;
+  display: flex;
+  justify-content: space-around;
+}
+
+.item{
+  display: grid;
+  border: 2px solid #259073;
+  min-width: 100px;
+  min-height: 100px;
+  width: 200px;
+  padding: 70px 0;
+  border-radius: 10px;
+  text-align: center;
+}
+
+

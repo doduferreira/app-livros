@@ -41,7 +41,7 @@ export const UserStorage = ({ children }) => {
               window.localStorage.setItem('gd_user', snapshot.data().nome);
               setUser(snapshot.data().nome);
               setLogin(true);
-              navigate('/favoritos');
+              navigate('/inicio');
             });
         });
     } catch (err) {

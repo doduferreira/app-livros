@@ -3,10 +3,7 @@ import { Link } from 'react-router-dom';
 import { UserContext } from '../../Contexts/UserContext';
 import useForm from '../../Hooks/useForm';
 import styles from './LoginForm.module.css';
-import {
-  faChevronCircleRight,
-  faChevronRight,
-} from '@fortawesome/free-solid-svg-icons';
+import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Error from '../../Components/Helper/Error';
 import Botao from '../Forms/Botao';
@@ -32,7 +29,7 @@ const LoginForm = () => {
   }
 
   return (
-    <div className="App">
+    <>
       <div className={[styles.split, styles.left].join(' ')}>
         <div className={styles.centered}>
           <Logo />
@@ -46,8 +43,6 @@ const LoginForm = () => {
           <br />
           <br />
           <form className={styles.form} onSubmit={handleSubmit}>
-            {/* <h1>Entrar</h1> */}
-
             <div className={styles.inputGroup}>
               <input
                 type="text"
@@ -84,7 +79,7 @@ const LoginForm = () => {
           </Link>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

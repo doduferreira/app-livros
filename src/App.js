@@ -4,11 +4,9 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { UserStorage } from './Contexts/UserContext';
 import isMobile from './Components/Helper/Mobile';
 import { Container } from 'react-bootstrap';
-import Menu from './Header/Menu';
-import HeaderFinal from './Header/HeaderFinal';
 import LoginForm from './Components/Autenticacao/LoginForm';
-// import Menu1 from './Header/Menu1';
-// import Menu2 from './Header/Menu2';
+import Incio from './Pages/Inicio/Inicio';
+import CadastrarLivro from './Pages/CadastrarLivro/CadastrarLivro';
 
 const Home = React.lazy(() => import('./Pages/Home/Home'));
 const Registro = React.lazy(() => import('./Components/Autenticacao/Registro'));
@@ -32,10 +30,6 @@ class App extends Component {
       <>
         <BrowserRouter>
           <UserStorage>
-            {/* <Menu /> */}
-
-            {/* <Menu1 /> */}
-            {/* <Menu2 /> */}
             <Routes>
               <Route
                 path="/"
@@ -62,6 +56,9 @@ class App extends Component {
                   </React.Suspense>
                 }
               />
+
+              <Route path="/inicio" element={<Incio />} />
+              <Route path="/cadastrarLivro" element={<CadastrarLivro />} />
             </Routes>
 
             {/* <Footer /> */}

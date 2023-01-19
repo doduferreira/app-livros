@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './HeaderFinal.module.css';
+import style from './Header.module.css';
 
 import {
   faUserCircle,
@@ -11,7 +11,7 @@ import { UserContext } from '../Contexts/UserContext';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Botao from '../Components/Forms/Botao';
 
-const HeaderFinal = () => {
+const HeaderLogged = () => {
   const { user, userLogout, login } = React.useContext(UserContext);
 
   return (
@@ -73,6 +73,18 @@ const HeaderFinal = () => {
                     Login
                   </a>
                 </li>
+                <li>
+                  <div className={style.dropdown}>
+                    <a href="#" className={style.dropbtn}>
+                      Dropdown <FontAwesomeIcon icon={faCaretDown} />
+                    </a>
+                    <div className={style.dropdownContent}>
+                      <a href="#">Link 1</a>
+                      <a href="#">Link 2</a>
+                      <a href="#">Link 3</a>
+                    </div>
+                  </div>
+                </li>
               </ul>
             </div>
           </div>
@@ -89,4 +101,4 @@ const HeaderFinal = () => {
     </div>
   );
 };
-export default HeaderFinal;
+export default HeaderLogged;

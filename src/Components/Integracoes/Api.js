@@ -725,3 +725,17 @@ export function AWS_GET_TBFUNDAMENTUS(tickers) {
     },
   };
 }
+
+export function GOOGLE_GET_BOOKS(name) {
+  var url = `https://www.googleapis.com/books/v1/volumes?q=${name}`;
+  // console.log(url);
+  return {
+    url: url,
+    options: {
+      method: 'GET',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+    },
+  };
+}

@@ -5,7 +5,7 @@ import CountUp from 'react-countup';
 import { isMobile } from 'react-device-detect';
 import Head from '../../Components/Tags/Head';
 import Botao from '../../Components/Forms/Botao';
-import HeaderFinal from '../../Header/HeaderFinal';
+import Header from '../../Header/Header';
 
 const Home = () => {
   const navigate = useNavigate();
@@ -20,7 +20,7 @@ const Home = () => {
         canonical="https://www.guardardinheiro.com.br/"
         nivel="1"
       />
-      <HeaderFinal />
+      <Header />
       <div className={styles.container}>
         <div className={styles.containerItem}>
           <h2 className={styles.h2}>

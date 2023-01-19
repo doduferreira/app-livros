@@ -1,0 +1,25 @@
+.container{
+  border: 1px solid #259073;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.item{
+  display: grid;
+  text-align: center;
+  border: 2px solid #259073;
+    width: 300px;
+    height: auto;
+  padding: 10px 0;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+}
+
+p{
+  font-family: 'Inter',sans-serif;
+  text-transform: uppercase;
+}
+
+

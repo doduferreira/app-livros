@@ -16,7 +16,7 @@ const useFetch = () => {
       // console.log(options);
       json = await response.json();
 
-      // console.log(json);
+      console.log(json);
       if (response.ok === false) throw new Error(json.message);
     } catch (err) {
       json = null;
