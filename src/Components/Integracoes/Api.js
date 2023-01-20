@@ -727,12 +727,43 @@ export function AWS_GET_TBFUNDAMENTUS(tickers) {
 }
 
 export function GOOGLE_GET_BOOKS(name) {
-  var url = `https://www.googleapis.com/books/v1/volumes?q=${name}`;
+  // var url = `https://www.googleapis.com/books/v1/volumes?q=${name}`;
+  var url = `https://www.googleapis.com/books/v1/volumes?q=intitle:${name}&key=AIzaSyBx_81m4kqyRSaCPY7-8gzYOc1ir53Y0T4`;
   // console.log(url);
   return {
     url: url,
     options: {
       method: 'GET',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+    },
+  };
+}
+
+export function POST_ADD_BOOKS(book_google_id, user_id, status, finished) {
+  // console.log(JSON.stringify(body));
+  return {
+    url: `https://5npze6by29.execute-api.sa-east-1.amazonaws.com/producao/books?book_google_id=${book_google_id}&user_id=${user_id}&status=${status}&finished=${finished}`,
+    options: {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+    },
+  };
+}
+
+export function POST_ADD_BOOK_TO_USER(book_google_id, user_id) {
+  let status = '';
+  let finished = '';
+  let retorno;
+  let url = `https://5npze6by29.execute-api.sa-east-1.amazonaws.com/producao/books?book_google_id=${book_google_id}&user_id=${user_id}&status=${status}&finished=${finished}`;
+  console.log(url);
+  return {
+    url: url,
+    options: {
+      method: 'POST',
       headers: {
         'Content-Type': 'application/json',
       },

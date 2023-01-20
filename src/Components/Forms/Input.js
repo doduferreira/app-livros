@@ -1,6 +1,6 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
-import styles from '../StylesGlobal/Input.module.css';
+
+import styles from './Input.module.css';
 
 const Input = ({
   label,
@@ -15,14 +15,10 @@ const Input = ({
   step,
 }) => {
   return (
-    <div>
-      <label htmlFor={name} className={styles.label}>
-        {label}
-      </label>
+    <div className={styles.inputGroup}>
       <input
         id={name}
         name={name}
-        className={styles.input}
         type={type}
         value={value}
         onChange={onChange}
@@ -31,6 +27,7 @@ const Input = ({
         placeholder={placeholder}
         step={step}
       />
+      <label htmlFor={name}>{label}</label>
       {error && <p className={styles.error}>{error}</p>}
     </div>
   );
