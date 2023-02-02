@@ -89,7 +89,9 @@ const GoogleBooks = () => {
       <p>{count}</p>
       <span>Resultados</span>
       <div className={styles.container}>
-        {data && data.items.map((book) => retornaLivroDetalhado(book))}
+        {data &&
+          data.totalItems > 0 &&
+          data.items.map((book) => retornaLivroDetalhado(book))}
       </div>
       {show && (
         <ModalCadastro

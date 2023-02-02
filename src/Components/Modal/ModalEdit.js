@@ -6,7 +6,7 @@ import Loading from '../Helper/Loading';
 import { POST_ADD_BOOK_TO_USER } from '../Integracoes/Api';
 import { useNavigate } from 'react-router-dom';
 
-function ModalCadastro(props) {
+function ModalEdit(props) {
   const navigate = useNavigate();
   const { data, loading, error, request } = useFetch();
 
@@ -57,4 +57,4 @@ function ModalCadastro(props) {
   );
 }
 
-export default ModalCadastro;
+export default ModalEdit;

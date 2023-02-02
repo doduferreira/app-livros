@@ -741,10 +741,16 @@ export function GOOGLE_GET_BOOKS(name) {
   };
 }
 
-export function POST_ADD_BOOKS(book_google_id, user_id, status, finished) {
+export function POST_ADD_BOOKS(
+  book_google_id,
+  user_id,
+  status,
+  finished,
+  rating,
+) {
   // console.log(JSON.stringify(body));
   return {
-    url: `https://5npze6by29.execute-api.sa-east-1.amazonaws.com/producao/books?book_google_id=${book_google_id}&user_id=${user_id}&status=${status}&finished=${finished}`,
+    url: `https://5npze6by29.execute-api.sa-east-1.amazonaws.com/producao/books?book_google_id=${book_google_id}&user_id=${user_id}&status=${status}&finished=${finished}&rating=${rating}`,
     options: {
       method: 'POST',
       headers: {
@@ -754,16 +760,33 @@ export function POST_ADD_BOOKS(book_google_id, user_id, status, finished) {
   };
 }
 
-export function POST_ADD_BOOK_TO_USER(book_google_id, user_id) {
-  let status = '';
-  let finished = '';
-  let retorno;
-  let url = `https://5npze6by29.execute-api.sa-east-1.amazonaws.com/producao/books?book_google_id=${book_google_id}&user_id=${user_id}&status=${status}&finished=${finished}`;
+export function POST_ADD_BOOK_TO_USER(
+  book_google_id,
+  user_id,
+  status,
+  finished,
+  action,
+) {
+  let url = `https://5npze6by29.execute-api.sa-east-1.amazonaws.com/producao/books?book_google_id=${book_google_id}&user_id=${user_id}&status=${status}&finished=${finished}&action=${action}`;
   console.log(url);
   return {
     url: url,
     options: {
       method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+    },
+  };
+}
+
+export function GET_USER_BOOKS(user_id) {
+  var url = `https://5npze6by29.execute-api.sa-east-1.amazonaws.com/producao/books?user_id=${user_id}`;
+  // console.log(url);
+  return {
+    url: url,
+    options: {
+      method: 'GET',
       headers: {
         'Content-Type': 'application/json',
       },

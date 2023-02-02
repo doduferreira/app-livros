@@ -7,6 +7,7 @@ import { Container } from 'react-bootstrap';
 import LoginForm from './Components/Autenticacao/LoginForm';
 import Incio from './Pages/Inicio/Inicio';
 import CadastrarLivro from './Pages/CadastrarLivro/CadastrarLivro';
+import MeusLivros from './Pages/CadastrarLivro/MeusLivros';
 
 const Home = React.lazy(() => import('./Pages/Home/Home'));
 const Registro = React.lazy(() => import('./Components/Autenticacao/Registro'));
@@ -59,6 +60,7 @@ class App extends Component {
 
               <Route path="/inicio" element={<Incio />} />
               <Route path="/cadastrarLivro" element={<CadastrarLivro />} />
+              <Route path="/meus-livros" element={<MeusLivros />} />
             </Routes>
 
             {/* <Footer /> */}
